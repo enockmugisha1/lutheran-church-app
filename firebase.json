@@ -1,0 +1,29 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "lutheran-church-app-b6da5",
+          "appId": "1:185206347788:android:63686a1650355bbf6b3629",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "lutheran-church-app-b6da5",
+          "configurations": {
+            "android": "1:185206347788:android:63686a1650355bbf6b3629",
+            "ios": "1:185206347788:ios:0480dbefd39755dd6b3629",
+            "macos": "1:185206347788:ios:0480dbefd39755dd6b3629",
+            "web": "1:185206347788:web:9e50ff9855fd45376b3629",
+            "windows": "1:185206347788:web:26b51c5fdaab4cc06b3629"
+          }
+        }
+      }
+    }
+  }
+}
